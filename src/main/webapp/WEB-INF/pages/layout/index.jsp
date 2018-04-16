@@ -3,7 +3,7 @@
 <!DOCTYPE HTML > 
 <html>
 <head> 
-<title>机电设备管理</title>
+<title>合金在线仓库管理</title>
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="expires" content="0">
@@ -97,7 +97,7 @@ $(function(){
 	}
 	// 版权信息
 	function showAbout(){
-		$.messager.alert("机电设备管理  v1.0","设计: LRB<br/> 管理员邮箱: iceraining@yeah.net <br/> QQ: 406700041");
+		$.messager.alert("合金在线仓库管理  v1.0","设计: PC<br/> 管理员邮箱: 365594594@qq.com <br/> QQ: 365594594");
 	}
 
 	
@@ -107,7 +107,7 @@ $(function(){
 	<div data-options="region:'north',split:false" 
 	style="height:70px;padding:10px;background:url('${pageContext.request.contextPath}/common/header_bg1.png') no-repeat left;" >
 		<div style="float: left;padding-top: 10px;">
-			<strong><font color="#EE0000"   size="6">机电管理系统</font>&nbsp;&nbsp;<font color="#EE0000" size="2">v 1.0</font></strong>
+			<strong><font color="#EE0000"   size="6">合金在线仓库管理系统</font>&nbsp;&nbsp;<font color="#EE0000" size="2">v 1.0</font></strong>
 		</div>
 		<div style="float: right; position: absolute; right:15px; top: 45px;">
 		<span id="sessionInfoDiv" style="color: blue;">
@@ -146,7 +146,7 @@ $(function(){
 		<jsp:include page="west.jsp"></jsp:include>
 	</div>
 <!-- 	<div data-options="region:'east',title:'east',split:true" style="width:200px;"></div> -->
-	<div data-options="region:'center',title:'欢迎使用机电设备管理系统'" style="overflow: hidden;">
+	<div data-options="region:'center',title:'欢迎使用合金在线仓库管理系统'" style="overflow: hidden;">
 		<jsp:include page="center.jsp"></jsp:include>
 	</div>
 	<c:if test="${empty sessionScope.user }">

@@ -3,7 +3,7 @@
 <!DOCTYPE HTML >
 <html>
 <head>
-<title>机电设备管理</title>
+<title>合金在线仓库管理</title>
 </head>
 <body> <!-- 转发到真正的页面 -->
 		<%-- 这里用<jsp:forword>  不能通过--%>
